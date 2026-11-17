@@ -1,0 +1,9 @@
+{
+  "durabilitywarn.message": "⚠ Needs repair: %s (%s left)",
+  "text.autoconfig.durabilitywarn.title": "Durability Warning",
+  "text.autoconfig.durabilitywarn.option.enabled": "Mod enabled",
+  "text.autoconfig.durabilitywarn.option.showText": "Show text at the bottom",
+  "text.autoconfig.durabilitywarn.option.playSound": "Play sound",
+  "text.autoconfig.durabilitywarn.option.thresholdPercent": "Durability threshold (%)",
+  "text.autoconfig.durabilitywarn.option.repeatSeconds": "Repeat warning (sec)"
+}

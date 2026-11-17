@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "durabilitywarn",
+  "version": "${version}",
+  "name": "Durability Warning",
+  "description": "Звук и надпись, когда у предмета, брони или элитр мало прочности.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.durabilitywarn.DurabilityWarnClient"],
+    "modmenu": ["com.example.durabilitywarn.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  },
+  "suggests": { "modmenu": "*" }
+}

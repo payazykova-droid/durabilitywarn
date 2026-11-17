@@ -1,0 +1,9 @@
+{
+  "durabilitywarn.message": "⚠ Нужно починить: %s (осталось %s)",
+  "text.autoconfig.durabilitywarn.title": "Предупреждение о прочности",
+  "text.autoconfig.durabilitywarn.option.enabled": "Мод включён",
+  "text.autoconfig.durabilitywarn.option.showText": "Показывать надпись внизу",
+  "text.autoconfig.durabilitywarn.option.playSound": "Проигрывать звук",
+  "text.autoconfig.durabilitywarn.option.thresholdPercent": "Порог прочности (%)",
+  "text.autoconfig.durabilitywarn.option.repeatSeconds": "Повтор предупреждения (сек)"
+}
