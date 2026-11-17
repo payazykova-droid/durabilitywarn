@@ -78,8 +78,8 @@ public class DurabilityWarnClient implements ClientModInitializer {
                     SimpleSoundInstance.forUI(SoundEvents.NOTE_BLOCK_PLING.value(), 1.0f, 0.7f));
         }
         if (cfg.showText) {
-            client.gui.setOverlayMessage(
-                    Component.translatable("durabilitywarn.message", stack.getHoverName(), left), false);
+           client.player.sendOverlayMessage(
+        Component.translatable("durabilitywarn.message", stack.getHoverName(), left)); 
         }
     }
 }
